@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Agraham';
+    src: url(fonts1/Agraham-Personaluse.eot);
+    src: url(fonts1/Agraham-Personaluse.ttf);
+    src: url(fonts1/Agraham-Personaluse.woff);
+    src: url(fonts1/Agraham-Personaluse.woff2);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    background-color: rgb(18, 13, 2);
+    } 
+h1{
+    font-family: 'Agraham';
+    padding-left: 25px;
+    padding-top: 15px;
+    font-size: 30px;
+    color: goldenrod;
+}
+
+a{
+    color: rgb(255, 252, 212);
+}
+
+a:visited{
+    color: rgb(2, 67, 117);
+}
+
+.boots{
+    position: absolute;
+    top: 130px;
+    left: 500px;
+}
+
+.car{
+    position: absolute;
+    top: 400px;
+    left: 500px;
+}
+
+.headband{
+    position: absolute;
+    top: 600px;
+    left: 550px;
+}
+
+.caboodle{
+    position: absolute;
+    top: 830px;
+    left: 500px;
+}
+
+.ring{
+    position: absolute;
+    top: 1110px;
+    left: 500px;
+}
+h2{
+    font-family: 'Agraham';
+    position: static;
+    padding-top: 100px;
+    text-align: center;
+    color: goldenrod;
+}
+
+.description{
+    font-family: 'Times New Roman', Times, serif;
+    color: cornsilk;
+    position: static;
+    padding-top: 100px;
+    margin: auto;
+    width: 300px;
+    text-align: center;
+}
+

@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>example3</title>
+
+    <style>
+        .container{
+            display: grid;
+            width: 1200px;
+            height: 1000px;
+            margin: auto;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(6, 1fr);
+        }
+
+        .one{
+            background-color: lavender;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+
+        .two{
+            background-color: rosybrown;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+
+        .three{
+            background-color: lavender;
+            grid-row-start: 1;
+            grid-row-end: 4;
+            grid-column-start: 3;
+            grid-column-end: 4;
+        }
+
+        .four{
+            background-color: rosybrown;
+            grid-row-start: 1;
+            grid-row-end: 5;
+            grid-column-start: 4;
+            grid-column-end: 5;
+        }
+
+        .five{
+            background-color: lavender;
+            grid-row-start: 1;
+            grid-row-end: 6;
+            grid-column-start: 5;
+            grid-column-end: 6;
+        }
+
+        .six{
+            background-color: rosybrown;
+            grid-row-start: 1;
+            grid-row-end: 7;
+            grid-column-start: 6;
+            grid-column-end: 7;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+        <div class="five"></div>
+        <div class="six"></div>
+    </div>
+    
+</body>
+</html>
